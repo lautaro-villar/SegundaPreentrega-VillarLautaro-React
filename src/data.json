@@ -1,38 +1,47 @@
 [
-    {
-      "id": 1,
-      "name": "Bike 1",
-      "price": 100,
-      "description":
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
-      "stock": 3,
-      "category": "MTB"
-    },
-    {
-      "id": 2,
-      "name": "Bike 2",
-      "price": 200,
-      "description":
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
-      "stock": 8,
-      "category": "Route"
-    },
-    {
-      "id": 3,
-      "name": "Bike 3",
-      "price": 300,
-      "description":
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
-      "stock": 3,
-      "category": "BMX"
-    },
-    {
-      "id": 4,
-      "name": "Bike 4",
-      "price": 400,
-      "description":
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
-      "stock": 5,
-      "category": "MTB"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "After chabon",
+    "price": 12499,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "stock": 3,
+    "category": "MTB",
+    "image": "./imagenes/after-chabon.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Artaud",
+    "price": 23999,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "stock": 8,
+    "category": "Route",
+    "image": "./imagenes/artaud.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Clics modernos",
+    "price": 1636,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "stock": 3,
+    "category": "BMX",
+    "image": "./imagenes/clics-modernos.jpg"
+  },
+  {
+    "id": 4,
+    "name": "divididos por la felicidad",
+    "price": 9449,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "stock": 5,
+    "category": "MTB",
+    "image": "./imagenes/divididos-por-la-felicidad.jpg"
+  },
+  {
+    "id": 5,
+    "name": "oktubre",
+    "price": 7790,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "stock": 3,
+    "category": "MTB",
+    "image": "./imagenes/oktubre.jpg"
+  }
+]

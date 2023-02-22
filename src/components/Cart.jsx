@@ -74,25 +74,25 @@ const Cart = () => {
       <Container className="cart-container">
         <FormControl onSubmit={handleSubmit}>
           <Box>
-            <FormLabel>Your name</FormLabel>
+            <FormLabel>Nombre</FormLabel>
             <Input type="text" onChange={(e) => setUserName(e.target.value)} />
-            <FormLabel>Email address</FormLabel>
+            <FormLabel>Email</FormLabel>
             <Input
               type="email"
               onChange={(e) => setUserEmail(e.target.value)}
             />
-            <FormHelperText>We'll never share your email.</FormHelperText>
+            <FormHelperText>Nunca compartiremos tus datos con nadie</FormHelperText>
           </Box>
-          <FormLabel>What do you want to tell us?</FormLabel>
+          <FormLabel>Alguna sugerencia?</FormLabel>
           <Textarea></Textarea>
           <Box className="btn-send">
             <Button type="submit" colorScheme="teal" variant="outline">
-              Send information
+              Enviar
             </Button>
           </Box>
         </FormControl>
-      </Container>
-    </>
+      </Container>bn- 
+-    </>
   );
 };
 

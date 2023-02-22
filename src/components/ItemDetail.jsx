@@ -11,13 +11,12 @@ import {
   Divider,
   Alert,
 } from "@chakra-ui/react";
-import bikeImage from "../assets/x-blaze.png";
 import { useParams } from "react-router-dom";
 import ItemCount from "./ItemCount";
 
 const ItemDetail = ({ bikes }) => {
   const { id } = useParams();
-  // console.log(id);
+ 
 
   const bikeFilter = bikes.filter((bike) => bike.id == id);
 
@@ -28,20 +27,24 @@ const ItemDetail = ({ bikes }) => {
           <Center p="1rem">
             <Card className="card-main">
               <CardBody>
-                <Image borderRadius="lg" src={bikeImage} />
+
+
+                <Image borderRadius="lg" src={bike.Image} />
+
+
                 <Stack mt="6" spacing="3">
                   <Heading size="md">{bike.name}</Heading>
                   <Text color="blue.800" fontSize="l">
-                    Description: {bike.description}
+                    Descripcion: {bike.description}
                   </Text>
                   <Text color="blue.800" fontSize="l">
-                    Category: {bike.category}
+                    Categoria: {bike.category}
                   </Text>
                   <Text color="red.600" fontSize="xl">
                     Stock: {bike.stock}
                   </Text>
                   <Text color="green.600" fontSize="xl">
-                    Price: U$D {bike.price}
+                    Precio: $ {bike.price}
                   </Text>
                 </Stack>
               </CardBody>

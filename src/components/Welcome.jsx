@@ -6,8 +6,29 @@ const Welcome = () => {
       <Center>
         <Box boxSize="xxl">
           <Image
-            src="https://mambabikes.com.ar/wp-content/uploads/2020/06/slider-mountain-5.png"
-            alt="bike"
+            src="./imagenes/after-chabon.jpg"
+            alt="After-Chabon"
+            className="discos"
+          />
+
+          <Image
+            src="./imagenes/divididos-por-la-felicidad.jpg"
+            alt="divididos-por-la-felicidad"
+            className="discos"
+          />
+
+          <Image src="./imagenes/artaud.jpg" alt="artaud" className="discos" />
+
+          <Image
+            src="./imagenes/clics-modernos.jpg"
+            alt="clips-modernos"
+            className="discos"
+          />
+
+          <Image
+            src="./imagenes/oktubre.jpg"
+            alt="oktubre"
+            className="discos"
           />
         </Box>
       </Center>

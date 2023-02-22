@@ -22,11 +22,11 @@ const NavBar = () => {
         <Flex alignItems="center" gap="2">
           <Avatar
             size="xl"
-            src="https://mejorconsalud.as.com/fitness/wp-content/uploads/2021/10/mujer-ciclista-entrena-competencia-1024x683.jpg"
+            src="./imagenes/imagen-logo.jpg"
           />
           <Box p="10" w="300px" h="100">
             <Heading size="md">
-              <Link to={"/"}>BikeStore</Link>
+              <Link to={"/"}> Discos Argentos</Link>
             </Heading>
           </Box>
           <Spacer />
@@ -37,10 +37,10 @@ const NavBar = () => {
                   as={Button}
                   size="lg"
                   variant="outline"
-                  colorScheme="blue"
+                  colorScheme="red"
                   m="5"
                 >
-                  Catalogue
+                  Discos
                 </MenuButton>
               </Link>
             </Menu>
@@ -49,22 +49,27 @@ const NavBar = () => {
                 as={Button}
                 size="lg"
                 variant="outline"
-                colorScheme="blue"
+                colorScheme="red"
                 rightIcon={<ChevronDownIcon />}
                 m="5"
               >
-                Categories
+                Categorias
               </MenuButton>
               <MenuList className="menu-list">
                 <Link to={`/category/${"MTB"}`}>
-                  <MenuItem>MTB</MenuItem>
+                  <MenuItem>Rock reggae</MenuItem>
                 </Link>
                 <Link to={`/category/${"Route"}`}>
-                  <MenuItem>Route</MenuItem>
+                  <MenuItem>Rock armonico</MenuItem>
                 </Link>
                 <Link to={`/category/${"BMX"}`}>
-                  <MenuItem>BMX</MenuItem>
+                  <MenuItem>Rock revolucionario</MenuItem>
                 </Link>
+
+                <Link to={`/category/${"BMX"}`}>
+                  <MenuItem>Rock post punk</MenuItem>
+                </Link>
+
               </MenuList>
             </Menu>
           </Box>

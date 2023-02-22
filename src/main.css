@@ -23,12 +23,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    
+    
 }
 
 
 .card-main{
     width: 18rem;
     margin: 1rem;
+    
 }
 
 .welcome-container{
@@ -48,15 +52,12 @@
 }
 
 .cart-container{
-    display: flex;
+   display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     width: 100%;
     height: 100%;
     margin: 10rem;
 }
-
-
-
-

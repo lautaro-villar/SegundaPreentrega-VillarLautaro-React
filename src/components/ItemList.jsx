@@ -1,5 +1,5 @@
 import Item from "./Item";
-import { Container } from "@chakra-ui/react";
+import { Container, Img } from "@chakra-ui/react";
 const ItemList = ({ bikes }) => {
   return (
     <>
@@ -13,6 +13,7 @@ const ItemList = ({ bikes }) => {
             price={bike.price}
             stock={bike.stock}
             category={bike.category}
+            image= {bike.image}
           />
         ))}
       </Container>
