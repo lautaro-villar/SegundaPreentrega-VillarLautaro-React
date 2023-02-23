@@ -41,7 +41,7 @@ const Cart = () => {
     <>
       <Center bg="#D6EAF8" h="100px" color="black">
         <Heading as="h2" size="2xl">
-          Cart
+          <Carrito></Carrito>
         </Heading>
       </Center>
       {cart.map((item) => {
