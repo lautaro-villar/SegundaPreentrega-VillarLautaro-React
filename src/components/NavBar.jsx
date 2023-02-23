@@ -56,17 +56,17 @@ const NavBar = () => {
                 Categorias
               </MenuButton>
               <MenuList className="menu-list">
-                <Link to={`/category/${"MTB"}`}>
+                <Link to={`/category/${"reggae"}`}>
                   <MenuItem>Rock reggae</MenuItem>
                 </Link>
-                <Link to={`/category/${"Route"}`}>
+                <Link to={`/category/${"armonico"}`}>
                   <MenuItem>Rock armonico</MenuItem>
                 </Link>
-                <Link to={`/category/${"BMX"}`}>
+                <Link to={`/category/${"revolucionario"}`}>
                   <MenuItem>Rock revolucionario</MenuItem>
                 </Link>
 
-                <Link to={`/category/${"BMX"}`}>
+                <Link to={`/category/${"post-punk"}`}>
                   <MenuItem>Rock post punk</MenuItem>
                 </Link>
 

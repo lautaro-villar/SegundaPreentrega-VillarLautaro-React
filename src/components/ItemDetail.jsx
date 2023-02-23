@@ -29,7 +29,7 @@ const ItemDetail = ({ bikes }) => {
               <CardBody>
 
 
-                <Image borderRadius="lg" src={bike.Image} />
+                <Image borderRadius="lg" src={bike} />
 
 
                 <Stack mt="6" spacing="3">

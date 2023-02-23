@@ -1,6 +1,4 @@
 import React from "react";
-import bike from "../assets/x-blaze.png";
-/*import { image } from "data.json";*/
 import {
   Center,
   Card,
@@ -14,7 +12,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-const Item = ({ id, name, stock, category,}) => {
+const Item = ({ id, name, stock, category, image}) => {
   return (
     <div>
       <div key={id}>
@@ -22,15 +20,15 @@ const Item = ({ id, name, stock, category,}) => {
           <Card className="card-main">
             <CardBody>
               
-              ////////
-              <Image borderRadius="lg" src={bike} />
-              ///////
+              
+              <Image borderRadius="lg" src={image} />
+              
 
               <Stack mt="6" spacing="3">
                 <Heading size="md">{name}</Heading>
 
                 <Text color="blue.800" fontSize="l">
-                  Category: {category}
+                  Categoria: {category}
                 </Text>
                 <Text color="red.600" fontSize="xl">
                   Stock: {stock}
@@ -41,7 +39,7 @@ const Item = ({ id, name, stock, category,}) => {
             <CardFooter className="card-footer">
               <Center className="btn-center">
                 <Button variant="solid" colorScheme="blue">
-                  <Link to={`/item/${id}`}>Details</Link>
+                  <Link to={`/item/${id}`}>Detalles</Link>
                 </Button>
               </Center>
             </CardFooter>
