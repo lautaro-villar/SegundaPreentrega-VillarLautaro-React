@@ -6,7 +6,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
     "stock": 3,
     "category": "reggae", 
-    "image": "./imagenes/after-chabon.jpg"
+    "image": "../imagenes/after-chabon.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
     "stock": 8,
     "category": "armonico", 
-    "image": "./imagenes/artaud.jpg"
+    "image": "../imagenes/artaud.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
     "stock": 3,
     "category": "revolucionario", 
-    "image": "./imagenes/clics-modernos.jpg"
+    "image": "../imagenes/clics-modernos.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
     "stock": 5,
     "category": "reggae", 
-    "image": "./imagenes/divididos-por-la-felicidad.jpg"
+    "image": "../imagenes/divididos-por-la-felicidad.jpg"
     
 
   },
@@ -44,6 +44,6 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
     "stock": 3,
     "category": "post-punk", 
-    "image": "./imagenes/oktubre.jpg"
+    "image": "../imagenes/oktubre.jpg"
   }
 ]
