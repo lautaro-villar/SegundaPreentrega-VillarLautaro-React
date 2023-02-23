@@ -56,15 +56,15 @@ const Cart = () => {
                 <Heading size="md">{item.name}</Heading>
               </CardHeader>
               <CardBody>
-                <Text as="b">Quantity: {item.quantity}</Text>
-                <Text>Price: U$D {item.price}</Text>
+                <Text as="b">cantidad: {item.quantity}</Text>
+                <Text>Precio: $ {item.price}</Text>
               </CardBody>
               <CardFooter>
                 <Button
                   colorScheme="red"
                   onClick={() => console.log("Eliminando")}
                 >
-                  Delete from cart
+                  eliminar del carrito
                 </Button>
               </CardFooter>
             </Card>
