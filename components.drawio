@@ -9,7 +9,7 @@
                 </mxCell>
                 <mxCell id="24" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="26" vertex="1">
                     <mxGeometry width="120" height="60" as="geometry"/>
-                </mxCell>
+                </mxCell   >
                 <mxCell id="25" value="App.jsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="26" vertex="1">
                     <mxGeometry x="30" y="15" width="60" height="30" as="geometry"/>
                 </mxCell>
